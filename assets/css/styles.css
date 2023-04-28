@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  text-align: justify;
+  background-color: #FFDEAD;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #8B4513;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid #8B4513;
+}
+
+.area1 h1 {
+  font-size: 30px;
+  color: #572d1a;
+}
+
+h2 {
+  color: #572d1a;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  color: #8B4513;
+}
+
+.area1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.area1-content {
+  margin: 15px;
+  padding: 10px;
+}
+
+img {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #333;
+
+}
+
+.area1-img1 {
+  margin: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.area2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.area2-content {
+  margin: 15px;
+  padding: 10px;
+}
+
+.area2-img1 {
+  margin: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.area3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.area3-content {
+  margin: 15px;
+  padding: 10px;
+}
+
+.area3-img1 {
+  margin: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.area4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.area4-content {
+  margin: 15px;
+  padding: 10px;
+}
+
+
+.area4-img1 {
+  margin: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+.area5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.area5-content {
+  margin: 15px;
+  padding: 10px;
+}
+
+.area5-img1 {
+  margin: 15px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+footer {
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.botton {
+  border: 1px solid saddlebrown;
+  border-radius: 15px;
+  padding: 8px;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: saddlebrown;
+}
+
+
+/* segunda pagina */
+.geral-carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.carrossel {
+  box-shadow: 5px 5px 7px black;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  transition: transform 0.5 ease-in-out;
+  transform: translateX(0);
+}
+
+img {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+}
+
+
+@media (min-width:200px) and (max-width: 1166px) {
+  .area1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 13px;
+  }
+
+  .area1-img1 img {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .area2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 13px;
+  }
+
+  .area2-img1 img {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .area3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 13px;
+  }
+
+  .area3-img1 img {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .area4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 13px;
+  }
+
+  .area4-img1 img {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .area5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 13px;
+  }
+
+
+  .area5-img1 img {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+}
